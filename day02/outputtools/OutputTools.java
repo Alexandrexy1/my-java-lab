@@ -6,5 +6,9 @@ public class OutputTools {
         System.out.print("Hello");
         System.out.println(", guys!");
         //output: Hello, guys!
+        System.out.printf("%s%n%s%n", "Hello", ", guys!");
+        //output:
+        //Hello
+        //, guys!
     }
 }
