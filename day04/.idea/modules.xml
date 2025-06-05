@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/day04.iml" filepath="$PROJECT_DIR$/day04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vectors/entities/entities.iml" filepath="$PROJECT_DIR$/vectors/entities/entities.iml" />
       <module fileurl="file://$PROJECT_DIR$/primitivetypes/primitivetypes.iml" filepath="$PROJECT_DIR$/primitivetypes/primitivetypes.iml" />
       <module fileurl="file://$PROJECT_DIR$/referencetypes/referencetypes.iml" filepath="$PROJECT_DIR$/referencetypes/referencetypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vectors/vectors.iml" filepath="$PROJECT_DIR$/vectors/vectors.iml" />
     </modules>
   </component>
 </project>
