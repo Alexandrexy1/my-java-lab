@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/day05.iml" filepath="$PROJECT_DIR$/.idea/day05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vectorsproject/heightproblem/heightproblem.iml" filepath="$PROJECT_DIR$/vectorsproject/heightproblem/heightproblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/vectorsproject/negativeproblem/negativeproblem.iml" filepath="$PROJECT_DIR$/vectorsproject/negativeproblem/negativeproblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/vectorsproject/sumvector/sumvector.iml" filepath="$PROJECT_DIR$/vectorsproject/sumvector/sumvector.iml" />
       <module fileurl="file://$PROJECT_DIR$/vectorsproject/vectorsproject.iml" filepath="$PROJECT_DIR$/vectorsproject/vectorsproject.iml" />
