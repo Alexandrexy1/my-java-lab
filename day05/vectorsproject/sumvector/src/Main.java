@@ -8,6 +8,25 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("");
+        System.out.print("Quantos números você vai digitar? ");
+        int quantity = sc.nextInt();
+
+        double[] vector = new double[quantity];
+        double total = 0;
+
+        for (int i = 0; i < quantity; i++) {
+            System.out.print("Digite um número: ");
+            vector[i] = sc.nextInt();
+        }
+
+        System.out.println("valores: ");
+        for (double num: vector) {
+            System.out.println(num);
+            total += num;
+        }
+
+        double average = total / vector.length;
+        System.out.println("Total: " + total);
+        System.out.println("Média: " + average);
     }
 }
