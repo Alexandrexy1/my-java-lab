@@ -36,8 +36,9 @@ public class Account {
     }
 
     public void withdraw(BigDecimal amount) {
-        if (balance.compareTo(amount) >= 0) {
-            balance = balance.subtract(amount);
+        if (balance.compareTo(amount.add(BigDecimal.valueOf(5))) >= 0) {
+            balance = balance.subtract(amount.add(BigDecimal.valueOf(5)));
+
         } else System.out.println("Saldo insuficiente.");
     }
 
